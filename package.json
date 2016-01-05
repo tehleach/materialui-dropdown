@@ -1,0 +1,37 @@
+{
+  "name": "material-ui-tests",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "build": "webpack -p",
+    "start": "node server/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kleach/materialui-dropdown.git"
+  },
+  "author": "Kyle Leach",
+  "license": "proprietary",
+  "dependencies": {
+    "express": "^4.0.0",
+    "express-graceful-exit": "^0.1.0",
+    "replace": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "material-ui": "^0.14.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-tap-event-plugin": "^0.2.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.11.0",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.5.0"
+  },
+  "engines": {
+    "node": "~4.2.x"
+  }
+}
